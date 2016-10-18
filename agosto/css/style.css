@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'GrungeStrokes01';
+  src: url('../fonts/GrungeStrokes01.eot?#iefix') format('embedded-opentype'),  url('GrungeStrokes01.woff') format('woff'), url('../fonts/GrungeStrokes01.ttf')  format('truetype'), url('GrungeStrokes01.svg#GrungeStrokes01') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.footer{
+	background-color: #6A5ACD;
+	background: #6A5ACD;
+
+	color: white;
+}
+.rodape{
+  font-family: 'GrungeStrokes01';
+  font-size: 120px;
+  margin: 0 auto;
+  text-align: center;
+  color: #6A5ACD;
+}
+
+.newpage{
+	margin: 20px 0px 40px 0;
+}
+body{
+	background-color: #fff;
+	/*background-color:#e9ebee;*/
+	overflow-x: hidden;
+}
+.align-center{
+	margin: 0 auto;
+	width: 100%;
+}
+
+.img-center{
+	margin: 0 auto;
+	width: 80%;
+	margin-bottom: 15px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+  .margin-top-artigo{
+  	margin-top: 70px;
+  
+
+  }
+.overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 8;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+}  
+.mynav{
+	background-color:#6A5ACD;
+	border:none;
+	border-radius: 0px;
+	min-height: 80px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	color: white;
+}
+.navbar-nav > li > a{
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+.navbar-brand {
+	padding-bottom: 45px;
+	color: white;
+}
+.navbar-toggle {
+	padding-bottom: 30px;
+	padding-top:30px;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color:white;
+}
+.navbar-inverse{
+	color: white;
+}
+.margin-top{
+	margin-top: 60px;
+	padding: 0;
+}
+.text-left{
+	padding: 0;
+}
+
+.titulo{
+	border-bottom: 1px solid #6A5ACD;
+}
+
+a{
+color: blue;
+
+}

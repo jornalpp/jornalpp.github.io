@@ -1,32 +1,184 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html> <!--<![endif]-->
     <head>
-        <meta charset="utf8">
-        <title>PP</title>
+     <link rel="shortcut icon" type="image/x-icon" href="img/icone.png" />
+        <meta charset="utf-8">
+        <title>Jornal PP</title>
+    	<meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/templatemo_style.css">
+        <link rel="stylesheet" type="text/css" href="css/menustyles.css">
+        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
     </head>
     <body>
-        <form action="mail_send.php" method="post">
-            <fieldset>
-                <label for="email">E-mail: </label>
-                <input required name="email" type="email">
-            </fieldset>
-            <fieldset>
-                <label for="mensagem">Mensagem: </label>
-                <textarea required name="mensagem"></textarea>
-            </fieldset>
-            <fieldset>
-                <button type="submit">Enviar</button>
-            </fieldset>
-        </form>
-        <script type="text/javascript">
-            if ($nome && validaEmail($de) && $mensagem) {
-    enviaEmail($de, $assunto, $mensagem, $para, $email_servidor);
-    $pagina = "mail_ok.php";
-} else {
-    $pagina = "mail_error.php";
+                
+            </div>
+      
+            
+        </div>
+   
+    </nav>
+    </div>
+
+   <div id="mySidenav" class="sidenav" style="z-index:9999;">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Início</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Edições<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="agosto/index.html">Agosto.1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Contato</a></li>
+     
+    </ul>
+     <ul class="w3-right socialmenu">
+                    <a href=""><i class="fa social fa-facebook-official" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa social fa-twitter" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa social fa-instagram" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa social fa-linkedin" aria-hidden="true"></i></a>
+                </ul>
+</div>
+        <div class="site-main" id="sTop">
+
+<header class="visible-md-block visible-lg-block" style="position:absolute; z-index:10;">
+
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+
+<div class="btos-topo text-right">
+<span id="sidemenu" onclick="openNav()">&#9776; Menu</span>
+<span class="social" id="social">
+<a href=""><i class="fa social fa-facebook-official" aria-hidden="true"></i></a>
+<a href=""><i class="fa social fa-twitter" aria-hidden="true"></i></a>
+<a href=""><i class="fa social fa-instagram" aria-hidden="true"></i></a>
+<a href=""><i class="fa social fa-linkedin" aria-hidden="true"></i></a>
+</span>
+
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="col-md-2" style="margin-right:100px;">
+<a href="http://www.moldsoft.com.br"><img src="img/logobranco.png" width="80" alt=""></a>
+</div>
+
+<div class="col-md-6">
+<nav class="menu-desk">
+
+<div class='cssmenu'>
+<ul>
+<li class="active" ><a href="#">Início</a></li>
+<li class='has-sub'><a href="javascript:;">Edições</a>
+<ul>
+<li><a href='agosto/index.html'>Número 1</a></li>
+<li><a href=''>data</a></li>
+<li><a href=''>data</a></li>
+<li><a href=''>data</a></li>
+
+</ul>
+</li>
+<li class="" ><a href="#">Contato</a></li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+</header>
+</div>
+        <!--  Conteúdo -->
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+
+  <!-- Wrapper for slides -->
+
+  <div class="overlay"></div>
+  <div class="carousel-inner" role="listbox">
+    
+    
+    <div class="item">
+        <img src="img/sales1.jpg" class="img-responsive" data-color="firebrick" alt="Second Image">
+        <div class="carousel-caption">
+           <h2>Diário PP</h2>
+            <p>Mudança e movimento Alpha</p>
+    </div>
+    </div>
+    
+    
+             
+              
+        </div>
+    </div>
+  </div>
+  </div>
+        <script src="js/vendor/jquery-1.9.1.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+        
+        
+    <script type='text/javascript'>
+
+$(document).ready(function(){
+    $window = $(window);
+    $('section[data-type="background"]').each(function(){
+        var $scroll = $(this);   
+            $(window).scroll(function() {
+                var yPos = -($window.scrollTop() / $scroll.data('speed'));   
+            });
+   });  
+}); 
+</script>
+<script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
 }
- 
-header("location:$pagina");
-        </script>
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+}
+</script>
+    <script type="text/javascript">
+  var $item = $('.carousel .item'); 
+var $wHeight = $(window).height();
+$item.eq(0).addClass('active');
+$item.height($wHeight); 
+$item.addClass('full-screen');
+
+$('.carousel img').each(function() {
+  var $src = $(this).attr('src');
+  var $color = $(this).attr('data-color');
+  $(this).parent().css({
+    'background-image' : 'url(' + $src + ')',
+    'background-color' : $color
+  });
+  $(this).remove();
+});
+
+$(window).on('resize', function (){
+  $wHeight = $(window).height();
+  $item.height($wHeight);
+});
+
+</script>
     </body>
 </html>
